@@ -9,6 +9,12 @@ div.box{
 	width:200px;
 	border: 2px solid black;
 	background: lightblue;
-	text-align: center;
+}
+div > p.para{
 	color: purple;
+	text-align: center;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
